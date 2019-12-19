@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Lora&display=swap');
+
+/* font-family: 'Bad Script', cursive;
+font-family: 'Lora', serif; */
+
+body {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.main-text {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Bad Script', cursive;
+    font-weight: normal;
+}
+
+
+/* ----------interactive nav----------- */
+
+.navbar {
+    height: 77px;
+    overflow: hidden;
+    background-color: white;
+    font-family: 'Lora', serif;
+    display: block;
+    padding-left: 82px;
+  }
+   
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 34px;
+    text-decoration: none;
+  }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 34px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #ddd;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+/* -----------------end of nav ------------------------- */
+
+.main {
+    height: 950px;
+    width: 100%;
+}
+
+.colums {
+    height: 950px;
+    float: left;
+    display: block;
+    margin: auto;
+}
+
+.pic {
+    width: 64%;
+}
+
+.text {
+    width: 36%;
+}
+
+.french-toast {
+    width: 717px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 10px 10px 15px  
+    #bfbfbf;
+}
+
+.lower-text-h3 {
+    font-family: 'Bad Script', cursive;
+    text-align: center;
+    padding-top: 22%;
+    font-size: 53px;
+    padding-right: 126px;
+}
+
+/* ---------footer ------------------*/
+
+.footer {
+  height: 77px;
+  width: 100%;
+  background-color: white;
+  box-shadow: 10px 10px 58px #bfbfbf;
+}
+
+.button-input, .social, .copy {
+  width: 33%;
+  float: left;
+  margin: auto;
+  text-align: center;
+}
+
+.button-input {
+  margin-top: 31px;
+} 
+
+.button-input {
+  padding:7px;
+  border-radius: 4px;
+  margin-top: 24px
+}
+
+.input {
+  height: 20px;
+  width: 120px;
+}
+
+.fab {
+  font-size: 30px;
+  color: black;
+  margin-top: 19px;
+  padding: 8px;
+}
+
+.copy {
+  margin-top: 17px;
+}
+
+/* -------about page ---------------------- */
+
+.main-aboutpage {
+  height: 850px;
+  width: 100%;
+}
+
+.abouttextbox {
+  height: 850px;
+  width: 45%;
+  float: left;
+  display: block;
+  margin: auto;
+}
+
+.abouttext { 
+  font-family: 'Lora', serif;
+  text-align: center;
+  font-size: 24px;
+  padding-top: 67px;
+  padding-left: 103px;
+  padding-right: 92px;
+  padding-bottom: 15px;
+}
+
+.portrait {
+  width: 556px;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 10px 10px 15px  
+  #bfbfbf;
+}
+
+.mushroomsbox {
+  width: 55%;
+  float: left;
+}
+
+.mushrooms {
+  width: 717px;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 10px 10px 15px  
+  #bfbfbf;
+}
+
+/* -------------end of about----------- */
+
+/* -----------contact---------------- */
+.main-contactpage {
+  height: 1000px;
+  width: 100%;
+}
+
+.salmonbox {
+  height: 1000px;
+  width: 62%;
+  float: left;
+}
+
+.salmon {
+  width: 717px;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 10px 10px 15px  
+  #bfbfbf;
+}
+
+.contactform { 
+  height: 1000px;
+  width: 38%;
+  float: left;
+  display: block;
+  margin: auto;
+}
+
+.form {
+  width: 25%;
+}
+
+/* ----------------end of contact -------------------- */
+
+/* ---------------- all dropdown pages  ------------------ */
+
+.mainfoodpages {
+  height: 1500px;
+}
+
+.columspadding {
+  height: 1500px;
+  width: 12.5%;
+  display: block;
+  float: left;
+}
+
+.columsfoodpages {
+  height: 1500px;
+  width: 25%;
+  display: block;
+  float: left;
+}
+
+/* ---------------end dropdown pages ----------- */
+/* ------------------------breakfast ---------------- */
+
+.breakfastplate {
+  width: 448px;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 10px 10px 15px  
+  #bfbfbf;
+}
+
+.toast {
+  width: 448px;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 10px 10px 15px  
+  #bfbfbf;
+}
+
+.pancakes {
+  width: 448px;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 10px 10px 15px  
+  #bfbfbf;
+}
+
+/* --------lunch------------------------ */
+.dilla{
+  width: 448px;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 10px 10px 15px  
+  #bfbfbf;
+}
+
+.sandwich {  
+  width: 448px;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 10px 10px 15px  
+  #bfbfbf;
+}
+
+  /* -------dinner ------------------- */
+
+  .dinner { 
+    width: 448px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 10px 10px 15px  
+    #bfbfbf;
+  }
+
+  .padding {
+    height: 15px;
+  }
+
+/* ------------end of dinner--------- */
+
+/* -------------drinks and desert------------------ */
+
+.drinks { 
+  width: 448px;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 10px 10px 15px  
+  #bfbfbf;
+}
+
+/* ------------other------------------------------- */
+
+.other {
+  width: 448px;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 10px 10px 15px  
+  #bfbfbf;
+}
+
+
